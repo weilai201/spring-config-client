@@ -14,7 +14,7 @@ public class ConfigClientApplication {
 	
 	@RequestMapping("/")
     public String home() {
-        return "Hello World!--"+configValue;
+        return "Hello World! The bar value="+configValue;
     }
 	
   public static void main(String[] args) {
